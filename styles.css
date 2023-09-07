@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+}
+li{
+    display: inline-block;
+    padding: 6px 9px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: .8s;
+}
+a:hover{
+    color: #E5330B;
+}
+
+h1{
+    color: blue;
+    padding: 5px 0px 10px;
+    margin-top: 100px;
+    
+}
+.serves-item{
+    background-color: antiquewhite;
+}
+.pc{
+    display: flex;
+}
+h2{
+    color: #E5330B;
+}
+#info-manu{
+    text-decoration: underline;
+    color: #E5330B;
+}
+
